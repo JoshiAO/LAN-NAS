@@ -1,0 +1,3 @@
+DO NOT DELETE: This folder is actively synced with the LAN-NAS Server by user: sample_user.
+
+This file serves as a physical indicator that this directory is currently managed by LAN-NAS Sync.

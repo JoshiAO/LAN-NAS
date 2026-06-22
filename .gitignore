@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Python Virtual Environments
+venv/
+env/
+__pycache__/
+
+# Build outputs
+client/release/
+client/dist/
+server/build/
+server/dist/
+*.exe
+
+# Databases
+*.db
+*.sqlite
+
+# IDE/OS files
+.vscode/
+.DS_Store
+Thumbs.db

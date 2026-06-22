@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAN-NAS Server Admin</title>
+    <link rel="icon" type="image/x-icon" href="/static/lannas.ico">
+    <link rel="stylesheet" href="/static/admin.css">
+    <!-- Using Lucide Icons for consistent design with React client -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div class="logo">
+                <i data-lucide="server" class="icon-primary"></i>
+                <h1>LAN-NAS Admin Dashboard</h1>
+            </div>
+            <div class="status-badge">
+                <i data-lucide="activity"></i>
+                <span>Server Running</span>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- Stats Grid -->
+            <section class="dashboard-grid">
+                <div class="card stat-card">
+                    <i data-lucide="users" class="icon-blue"></i>
+                    <div class="stat-info">
+                        <h3>Total Users</h3>
+                        <p id="stat-users">-</p>
+                    </div>
+                </div>
+                <div class="card stat-card">
+                    <i data-lucide="folder" class="icon-green"></i>
+                    <div class="stat-info">
+                        <h3>Synced Files</h3>
+                        <p id="stat-files">-</p>
+                    </div>
+                </div>
+                <div class="card stat-card">
+                    <i data-lucide="hard-drive" class="icon-orange"></i>
+                    <div class="stat-info">
+                        <h3>Storage Used</h3>
+                        <p id="stat-storage">-</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="panels-grid">
+                <!-- User Management Panel -->
+                <section class="card panel">
+                    <div class="panel-header">
+                        <h2><i data-lucide="user-cog"></i> User Management</h2>
+                        <form id="create-user-form" class="create-user-form">
+                            <input type="text" id="new-username" placeholder="New Username" required />
+                            <input type="password" id="new-password" placeholder="Password" required />
+                            <button type="submit" class="btn-success">Create User</button>
+                        </form>
+                    </div>
+                    <div class="table-container">
+                        <table id="users-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Username</th>
+                                    <th>Storage Used</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Users will be populated here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Files Panel -->
+                <section class="card panel">
+                    <div class="panel-header">
+                        <h2><i data-lucide="file-text"></i> All Synced Files</h2>
+                    </div>
+                    <div class="table-container">
+                        <table id="files-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Owner</th>
+                                    <th>Path</th>
+                                    <th>Size</th>
+                                    <th>Locked</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Files will be populated here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="/static/admin.js"></script>
+</body>
+</html>
