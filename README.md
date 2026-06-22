@@ -16,9 +16,13 @@
   <a href="#technologies-used">Technologies Used</a>
 </p>
 
-<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/49cd9514-baf5-422d-a8f6-6f4c4afc487b" />
-<img width="879" height="750" alt="image" src="https://github.com/user-attachments/assets/831e1308-a63a-4873-9795-04b3bd12e93b" />
-<img width="879" height="838" alt="image" src="https://github.com/user-attachments/assets/f0f01abf-9576-4acd-9201-329b464163b4" />
+<table>
+  <tr>
+    <td><img height="400" alt="Server Dashboard" src="https://github.com/user-attachments/assets/49cd9514-baf5-422d-a8f6-6f4c4afc487b" /></td>
+    <td><img height="400" alt="Client Dashboard" src="https://github.com/user-attachments/assets/831e1308-a63a-4873-9795-04b3bd12e93b" /></td>
+    <td><img height="400" alt="Client Connecting" src="https://github.com/user-attachments/assets/f0f01abf-9576-4acd-9201-329b464163b4" /></td>
+  </tr>
+</table>
 
 **LAN-NAS** is a fully automated, bi-directional file synchronization system built to seamlessly mimic cloud storage experiences (like Google Drive or Dropbox) but entirely localized to your own physical network. It ensures absolute data privacy, rapid transfer speeds over LAN, and requires zero IP configuration to connect clients to the server.
 
