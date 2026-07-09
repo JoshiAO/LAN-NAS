@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="./client/logo.jpg" alt="LAN-NAS" width="120">
+  <img src="https://raw.githubusercontent.com/JoshiAO/LAN-NAS/main/client/logo.jpg" alt="LAN-NAS" width="120">
   <br>
   LAN-NAS
   <br>
