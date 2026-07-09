@@ -1,9 +1,9 @@
+<p align="center">
+  <img src="client/logo.jpg" alt="LAN-NAS Logo" width="120" />
+</p>
+
 <h1 align="center">
-  <br>
-  <img src="https://raw.githubusercontent.com/JoshiAO/LAN-NAS/main/client/logo.jpg" alt="LAN-NAS" width="120">
-  <br>
   LAN-NAS
-  <br>
 </h1>
 
 <h4 align="center">A zero-configuration, self-hosted Local Area Network Attached Storage and File Synchronization engine.</h4>
