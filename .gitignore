@@ -21,3 +21,7 @@ server/dist/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Helper scripts
+server/convert_png.py
+server/convert_icon.py
