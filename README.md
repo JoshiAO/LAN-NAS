@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="https://github.com/JoshiAO/LAN-NAS">
-    <img src="https://raw.githubusercontent.com/JoshiAO/LAN-NAS/main/client/logo_120.png" alt="LAN-NAS Logo" />
-  </a>
-</p>
 
 <h1 align="center">
   LAN-NAS
