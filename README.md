@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="client/logo.jpg" alt="LAN-NAS Logo" width="120" />
+  <a href="https://github.com/JoshiAO/LAN-NAS">
+    <img src="https://raw.githubusercontent.com/JoshiAO/LAN-NAS/main/client/logo_120.png" alt="LAN-NAS Logo" />
+  </a>
 </p>
 
 <h1 align="center">
